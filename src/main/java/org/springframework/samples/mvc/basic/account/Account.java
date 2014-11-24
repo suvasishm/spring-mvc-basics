@@ -26,7 +26,7 @@ public class Account {
 	
 	@NotNull
 	@NumberFormat(style=Style.PERCENT)
-	private BigDecimal equityAllocation = new BigDecimal(".600");
+	private BigDecimal equityAllocation = new BigDecimal(".6000");
 
 	@DateTimeFormat(style="S-")
 	@Future
